@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    /> -->
+    <!-- Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+
+</head>
+<body>
+    <div class="h-svh">
+        <img class="absolute top-0 h-4/5 w-screen" src="img/travel.webp" alt="">
+            
+        <div class="relative block lg:flex text-center justify-center lg:justify-between text-white bg-emerald-400 lg:rounded-b-3xl px-1 lg:px-10 py-3 lg:py-6">
+                <div class="flex justify-center lg:justify-start">
+                    <a class="flex" href="">
+                        <svg class="mx-1 lg:mx-5 h-10 w-10 lg:h-20 lg:w-20 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
+                            <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
+                            <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+                        </svg>                  
+                    </a>
+                    <div class="flex justify-end lg:pt-5">
+                        <a class="text-sm lg:text-2xl pt-2 lg:pt-0 pr-3 lg:pr-6" href="">مخيمات</a>
+                        <p class="text-2xl lg:text-3xl px-3">|</p> 
+                        <a class="text-sm lg:text-2xl pt-2 lg:pt-0" href="">شقق</a>
+                        <p class="text-2xl lg:text-3xl px-3">|</p>
+                        <a class="text-sm lg:text-2xl pt-2 lg:pt-0" href="">فلل</a>
+                        <p class="text-2xl lg:text-3xl px-3">|</p>
+                        <a class="text-sm lg:text-2xl pt-2 lg:pt-0" href="">مزارع</a>
+                    </div>
+                </div>
+                <div class="flex pt-5">
+                    <a class="text-sm lg:text-xl pl-4 pr-9 lg:pr-0 " href="">اعرض عقارك</a>
+                    <a href="login.html">
+                        <button class="flex items-center font-semibold rounded-full px-3 py-1 lg:mb-8 text-sm lg:text-xl bg-white text-emerald-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6">
+                                <path d="M10 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM3.465 14.493a1.23 1.23 0 0 0 .41 1.412A9.957 9.957 0 0 0 10 18c2.31 0 4.438-.784 6.131-2.1.43-.333.604-.903.408-1.41a7.002 7.002 0 0 0-13.074.003Z" />
+                            </svg>
+                            التسجيل/تسجيل الدخول
+                        </button>
+                    </a>
+                </div>
+        </div>
+
+        <div class="relative flex flex-col text-start justify-between shadow-2xl top-48 lg:top-96 lg:mt-4 bg-white rounded-xl lg:rounded-full mx-4 lg:mx-14 lg:py-2">
+            <div class="block lg:grid lg:grid-cols-2 justify-between px-5 lg:px-14">
+                <div class="flex lg:grid lg:grid-cols-3">
+                    <div>
+                        <div class="flex">
+                            <div class="text-sm lg:text-lg font-bold text-gray-500 py-1"> اختر المدينة</div>
+                        </div>
+                        <div class="flex">
+                            <div class="text-sm lg:text-lg font-semibold text-emerald-400 py-2">الرياض</div>
+                        </div>
+                    </div>
+                    <div class="px-8 lg:px-0">
+                        <div class="flex">
+                            <div class="text-sm lg:text-lg font-bold text-gray-500 py-1">نوع بيت العطلة</div>
+                        </div>
+                        <div class="flex">
+                            <div class="text-sm lg:text-lg font-semibold text-emerald-400 py-2">الكل</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex">
+                            <div class="text-sm lg:text-lg font-bold text-gray-500 py-1">  عدد الأشخاص</div>
+                        </div>
+                        <div class="flex">
+                            <div class="text-sm lg:text-lg font-semibold text-emerald-400 py-2">2 بالغين</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex lg:grid lg:grid-cols-3">
+                    <div>
+                        <div class="flex">
+                            <div class="text-sm lg:text-lg font-bold text-gray-500 py-1"> اختر التاريخ</div>
+                        </div>
+                        <div class="flex">
+                            <div class="text-sm lg:text-lg font-semibold text-emerald-400 py-2"> من الخميس 20-3-2024 </div>
+                        </div>
+                    </div>
+                    <div class="px-2 pt-7 lg:px-0 lg:text-left lg:pt-9">
+                        <div class="text-sm lg:text-lg font-semibold align-bottom text-emerald-400 py-2">الى الجمعة 24-3-2024</div>
+                    </div>
+                    <button class="rounded-full shadow-sm bg-gray-100 text-emerald-400 px-3 lg:px-5 mt-6 lg:mt-0 lg:pt-0 lg:mr-36 max-h-9 lg:min-h-20 lg:w-20">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3.0" stroke="currentColor" class="w-3 h-3 lg:w-10 lg:h-10">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <h1 class="text-center text-emerald-400 px-3 mt-12 lg-mt-0 font-bold text-lg lg:text-4xl">
+        أكثر من 53,000 من بيوت العطلات في أكثر من 215 مدينة حول السعودية
+    </h1>
+    <div class="swiper mySwiper mb-12 pb-20">
+        <!-- remove overflow for large screen -->
+        <div class="overflow-x-scroll swiper-wrapper">
+            <div class="flex mt-16 gap-2 lg:gap-16 swiper-slide justify-center">
+                <div class="relative bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-52" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-1 pt-5"> مكة المكرمة </p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                    <div class="absolute top-28 lg:top-48 right-1.5 lg:right-5 bg-emerald-400 text-white text-center rounded shadow-md py-1 lg:py-2 lg:px-2 w-16 lg:w-52">
+                        <p class="text-xs lg:text-lg">تبدأ من 250 ر.س/اليوم</p>
+                    </div>
+                </div>
+                <div class="relative bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-52" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-1 pt-5">جدة</p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                    <div class="absolute top-28 lg:top-48 right-1.5 lg:right-5 bg-emerald-400 text-white text-center rounded shadow-md py-1 lg:py-2 lg:px-2 w-16 lg:w-52">
+                        <p class="text-xs lg:text-lg">تبدأ من 250 ر.س/اليوم</p>
+                    </div>
+                </div>
+                <div class="relative bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-52" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-1 pt-5"> الرياض</p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                    <div class="absolute top-28 lg:top-48 right-1.5 lg:right-5 bg-emerald-400 text-white text-center rounded shadow-md py-1 lg:py-2 lg:px-2 w-16 lg:w-52">
+                        <p class="text-xs lg:text-lg">تبدأ من 250 ر.س/اليوم</p>
+                    </div>
+                </div>
+                <div class="relative bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden ml-2 lg:ml-0">
+                    <img class="object-cover w-full h-32 lg:h-52" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-1 pt-5"> ابها</p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                    <div class="absolute top-28 lg:top-48 right-1.5 lg:right-5 bg-emerald-400 text-white text-center rounded shadow-md py-1 lg:py-2 lg:px-2 w-16 lg:w-52">
+                        <p class="text-xs lg:text-lg">تبدأ من 250 ر.س/اليوم</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex mt-16 gap-2 lg:gap-16 swiper-slide justify-center">
+                <div class="relative bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-52" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-1 pt-5"> مكة المكرمة </p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                    <div class="absolute top-28 lg:top-48 right-1.5 lg:right-5 bg-emerald-400 text-white text-center rounded shadow-md py-1 lg:py-2 lg:px-2 w-16 lg:w-52">
+                        <p class="text-xs lg:text-lg">تبدأ من 250 ر.س/اليوم</p>
+                    </div>
+                </div>
+                <div class="relative bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-52" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-1 pt-5">جدة</p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                    <div class="absolute top-28 lg:top-48 right-1.5 lg:right-5 bg-emerald-400 text-white text-center rounded shadow-md py-1 lg:py-2 lg:px-2 w-16 lg:w-52">
+                        <p class="text-xs lg:text-lg">تبدأ من 250 ر.س/اليوم</p>
+                    </div>
+                </div>
+                <div class="relative bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-52" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-1 pt-5"> الرياض</p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                    <div class="absolute top-28 lg:top-48 right-1.5 lg:right-5 bg-emerald-400 text-white text-center rounded shadow-md py-1 lg:py-2 lg:px-2 w-16 lg:w-52">
+                        <p class="text-xs lg:text-lg">تبدأ من 250 ر.س/اليوم</p>
+                    </div>
+                </div>
+                <div class="relative bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden ml-2 lg:ml-0">
+                    <img class="object-cover w-full h-32 lg:h-52" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-1 pt-5"> ابها</p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                    <div class="absolute top-28 lg:top-48 right-1.5 lg:right-5 bg-emerald-400 text-white text-center rounded shadow-md py-1 lg:py-2 lg:px-2 w-16 lg:w-52">
+                        <p class="text-xs lg:text-lg">تبدأ من 250 ر.س/اليوم</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex mt-16 gap-2 lg:gap-16 swiper-slide justify-center">
+                <div class="relative bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-52" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-1 pt-5"> مكة المكرمة </p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                    <div class="absolute top-28 lg:top-48 right-1.5 lg:right-5 bg-emerald-400 text-white text-center rounded shadow-md py-1 lg:py-2 lg:px-2 w-16 lg:w-52">
+                        <p class="text-xs lg:text-lg">تبدأ من 250 ر.س/اليوم</p>
+                    </div>
+                </div>
+                <div class="relative bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-52" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-1 pt-5">جدة</p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                    <div class="absolute top-28 lg:top-48 right-1.5 lg:right-5 bg-emerald-400 text-white text-center rounded shadow-md py-1 lg:py-2 lg:px-2 w-16 lg:w-52">
+                        <p class="text-xs lg:text-lg">تبدأ من 250 ر.س/اليوم</p>
+                    </div>
+                </div>
+                <div class="relative bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-52" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-1 pt-5"> الرياض</p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                    <div class="absolute top-28 lg:top-48 right-1.5 lg:right-5 bg-emerald-400 text-white text-center rounded shadow-md py-1 lg:py-2 lg:px-2 w-16 lg:w-52">
+                        <p class="text-xs lg:text-lg">تبدأ من 250 ر.س/اليوم</p>
+                    </div>
+                </div>
+                <div class="relative bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-52" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-1 pt-5"> ابها</p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                    <div class="absolute top-28 lg:top-48 right-1.5 lg:right-5 bg-emerald-400 text-white text-center rounded shadow-md py-1 lg:py-2 lg:px-2 w-16 lg:w-52">
+                        <p class="text-xs lg:text-lg">تبدأ من 250 ر.س/اليوم</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hidden lg:flex swiper-button-next rounded-full shadow-sm bg-gray-100 text-emerald-400 text-xs h-8 w-8 lg:min-h-20 lg:w-20 -ml-3 lg:ml-24 top-32 lg:top-40"></div>
+        
+    </div>
+
+    <h1 class="text-center text-emerald-400 font-bold text-xl lg:text-4xl">
+        اكتشف خياراتنا بناء على نوع بيت العطلة
+    </h1>
+    <div class="swiper mySwiper mb-12 pb-20">
+        <!-- remove overflow for large screen -->
+        <div class="overflow-x-scroll swiper-wrapper">
+            <div class="flex mt-16 gap-2 lg:gap-16 swiper-slide justify-center">
+                <div class="bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-60" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-2"> مخيمات</p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                </div>
+                <div class="bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-60" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-2">شقق</p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                </div>
+                <div class="bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-60" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-2"> فلل</p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                </div>
+                <div class="bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-60" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-2"> مزارع</p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                </div>
+            </div>
+            <div class="flex mt-16 gap-2 lg:gap-16 swiper-slide justify-center">
+                <div class="bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-60" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-2"> مكة المكرمة </p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                </div>
+                <div class="bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-60" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-2"> مكة المكرمة </p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                </div>
+                <div class="bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-60" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-2"> مكة المكرمة </p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                </div>
+                <div class="bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-60" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-2"> مكة المكرمة </p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                </div>
+            </div>
+            <div class="flex mt-16 gap-2 lg:gap-16 swiper-slide justify-center">
+                <div class="bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-60" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-2"> مكة المكرمة </p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                </div>
+                <div class="bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-60" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-2"> مكة المكرمة </p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                </div>
+                <div class="bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-60" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-2"> مكة المكرمة </p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                </div>
+                <div class="bg-white text-black text-center block w-1/3 lg:w-1/6 h-56 lg:h-80 rounded-2xl shadow-xl overflow-hidden">
+                    <img class="object-cover w-full h-32 lg:h-60" src="img/travel.jpg"/>
+                    <p class="text-xs lg:text-xl font-semibold mt-3 mb-2"> مكة المكرمة </p>
+                    <p class="text-xs lg:text-md lg:font-semibold"> 700+ مكان إقامة </p>
+                </div>
+            </div>
+        </div>
+        <div class="hidden lg:flex swiper-button-next rounded-full shadow-sm bg-gray-100 text-emerald-400 lg:min-h-20 lg:w-20 lg:ml-24 lg:top-40"></div>
+    </div>
+  
+
+    <div class="footer flex justify-between rounded-t-3xl pt-12 px-3 lg:px-20 text-white bg-emerald-400 text-sm lg:text-xl">
+        <div class="">
+            <a class="block" href="">من نحن</a>
+            <a class="block mt-4 lg:mt-7" href="">تواصل معنا</a>
+            <a class="block mt-4 lg:mt-7" href="">سياسة الخصوصية</a>
+            <a class="block mt-4 lg:mt-7" href="">الأسئلة المتكررة</a>
+        </div>
+        <div class="">
+            <div class="flex">
+                <img src="img/twitter.png" alt="" class="me-1 5 lg:me-4 w-5 lg:w-12 h-5 lg:h-12">
+                <img src="img/snapchat.png" alt="" class="me-1 5 lg:me-4 w-5 lg:w-12 h-5 lg:h-12">
+                <img src="img/instagram-logo.png" alt="" class="me-1 5 lg:me-4 w-5 lg:w-12 h-5 lg:h-12">
+                <img src="img/youtube.png" alt="" class="me-1 w-5 lg:w-14 h-5 lg:h-14 mt-1 lg:mt-2">
+            </div>
+            <button class="rounded mt-6 lg:mt-6 bg-white text-emerald-400 font-bold text-sm lg:text-lg py-1 lg:py-2 w-20 lg:w-32">
+                <select class="bg-white" name="" id="">
+                    <option value="Arabic" selected>العربية</option>
+                    <option value="English">English</option>
+                </select>
+            </button>
+            <a class="block mt-7 lg:mt-10 pb-8" href="">تسجيل الخروج</a>
+        </div>
+    </div>
+    <p class="text-center text-white bg-emerald-400 text-sm pb-8 lg:text-xl">جميع الحقوق محفوظة 2024</p>
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper('.mySwiper', {
+          centeredSlides: true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      </script>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
