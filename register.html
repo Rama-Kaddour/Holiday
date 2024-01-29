@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>تسجيل الدخول</title>
+    <style>
+        hr{
+            border: 1px solid darkgray;
+        }
+        .card{
+            height: 35rem;
+        }
+        .image{
+            height: 48rem;
+        }
+        @media (max-width:900px) {
+            .card{
+                height: 40rem;
+            }
+            .image{
+                max-height: 13rem !important;
+            }
+        }
+    </style>
+</head>
+<body class="">
+    <div class="card lg:overflow-y-scroll lg:w-5/6 bg-white shadow-xl rounded-2xl text-right block lg:flex justify-between mx-auto my-5 lg:my-0 lg:mt-24">
+        <div class="py-8 lg:py-14 pl-24  pr-8 lg:pr-16">
+            <p class="text-xl lg:text-2xl font-bold text-emerald-400 py-2">مرحباً بك !</p>
+            <p class="text-sm lg:text-md lg:font-semibold text-gray-500 flex-wrap w-72 mt-5">
+                سيتم ارسال رمز التحقق على رقم الجوال الرجاء التأكد من ادخال الرقم الصحيح
+            </p>
+            <label class="block text-sm lg:text-lg font-bold text-gray-400 py-1 mt-3 lg:mt-12"> ادخل اسمك الكامل</label>
+            <input type="text" class="w-48 lg:w-64 text-lg hover:border-2 hover:border-emerald-400 outline-none"> 
+            <hr class="w-48 lg:w-64">
+            <labe class="block text-sm lg:text-lg font-bold text-gray-400 py-1 mt-3 lg:mt-7"> ادخل ايميلك</labe>
+            <input type="email" class="w-48 lg:w-64 text-lg hover:border-2 hover:border-emerald-400 outline-none">
+            <hr class="w-48 lg:w-64">
+            <label for="mobile" class="block text-sm lg:text-lg font-bold text-gray-400 py-1 mt-3 lg:mt-7"> ادخل رقم الهاتف</label>
+            <input type="tel" pattern="+[0-9]{3} [0-9]" name="mobile" class="w-48 lg:w-64 text-lg hover:border-2 hover:border-emerald-400 outline-none"> 
+            <hr class="w-48 lg:w-64">
+            <label class="block text-sm lg:text-lg font-bold text-gray-400 py-1 mt-3 lg:mt-7"> ادخل كلمة المرور</label>
+            <input type="password" class="w-48 lg:w-64 text-lg hover:border-2 hover:border-emerald-400 outline-none"> 
+            <hr class="w-48 lg:w-64">
+            <a href="index.html">
+                <button class="p-3 bg-emerald-400 shadow-md shadow-emerald-300 hover:shadow-emerald-500 text-white rounded-lg w-36 font-semibold mt-10 lg:mt-16 lg:mb-16">
+                    تحديث
+                </button>
+            </a>
+        </div>
+        <div>
+            <img src="img/travel.webp" class="image rounded-lg w-full lg:w-4/5 object-cover shadow-lg mb-7 lg:mb-0 lg:float-end" alt="">
+        </div>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
