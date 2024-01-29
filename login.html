@@ -5,14 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>تسجيل الدخول</title>
+    <style>
+        hr{
+            border: 1px solid darkgray;
+        }
+    </style>
 </head>
-<body>
-    <div class="h-4/5 w-11/12 bg-white shadow-2xl text-right flex justify-between">
-        <div class="block">
-            
+<body class="h-full">
+    <div class="lg:w-5/6 bg-white shadow-xl rounded-2xl text-right block lg:flex justify-between mx-auto my-5 lg:my-0 lg:mt-20">
+        <div class="py-8 lg:py-14 pl-24  pr-8 lg:pr-16">
+            <div class="text-xl lg:text-2xl font-bold text-emerald-400 py-2">مرحبا بعودتك !</div>
+            <p class="text-sm lg:text-md lg:font-semibold text-gray-500 flex-wrap  w-72 mt-5">سيتم ارسال رمز التحقق على رقم الجوال
+                الرجاء التأكد من ادخال الرقم الصحيح
+            </p>
+            <label for="mobile" class="block text-sm lg:text-lg font-bold text-gray-400 py-1 mt-6 lg:mt-10"> ادخل رقم الهاتف</label>
+            <input type="tel" pattern="+[0-9]{3} [0-9]" name="mobile" class="w-48 lg:w-64 h-10 text-lg hover:border-2 hover:border-emerald-400 outline-none"> 
+            <hr class="w-48 lg:w-64">
+            <label for="password" class="block text-sm lg:text-lg font-bold text-gray-400 py-1 mt-3 lg:mt-5"> ادخل كلمة المرور</label>
+            <input type="password" name="password" class="w-56 lg:w-72 h-10 text-lg hover:border-2 hover:border-emerald-400 outline-none">
+            <div class="flex">
+                <hr class="w-56 lg:w-72">
+                <a class="text-sm lg:text-md lg:font-bold text-emerald-400 -mt-6 -ml-8 lg:-mr-28 w-56">
+                    نسيت كلمة المرور؟
+                </a>
+            </div>
+            <a href="index.html">
+                <button class="p-3 bg-emerald-400 shadow-md shadow-emerald-300 hover:shadow-emerald-500 text-white rounded-lg w-36 font-semibold mt-10 lg:mt-12">
+                    تسجيل الدخول
+                </button>
+            </a>
+            <div class="flex">
+                <p class="text-sm lg:text-md lg:font-bold text-gray-500 mt-5 ml-1">
+                    لا تمتلك حساب ؟ 
+                </p>
+                <a href="register.html" class="text-sm lg:text-md lg:font-bold text-emerald-400 mt-5">
+                    سجل الآن
+                </a>
+            </div>
         </div>
         <div>
-
+            <img src="img/travel.webp" class="rounded-lg w-full lg:w-4/5 h-full object-cover  lg:float-end" alt="">
         </div>
     </div>
 
